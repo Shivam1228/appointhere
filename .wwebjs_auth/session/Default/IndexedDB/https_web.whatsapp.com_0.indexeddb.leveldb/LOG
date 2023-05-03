@@ -37,3 +37,18 @@
 2023/05/03-23:19:53.074 811a Delete type=2 #16
 2023/05/03-23:19:53.074 811a Delete type=2 #13
 2023/05/03-23:19:53.074 811a Delete type=2 #14
+2023/05/03-23:20:08.060 80be Compacting 1@1 + 1@2 files
+2023/05/03-23:20:08.117 80be Generated table #19@1: 24353 keys, 1831573 bytes
+2023/05/03-23:20:08.117 80be Compacted 1@1 + 1@2 files => 1831573 bytes
+2023/05/03-23:20:08.119 80be compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/03-23:20:08.119 80be Delete type=2 #5
+2023/05/03-23:20:08.119 80be Delete type=2 #17
+2023/05/03-23:20:10.285 818f Level-0 table #21: started
+2023/05/03-23:20:10.304 818f Level-0 table #21: 1086725 bytes OK
+2023/05/03-23:20:10.306 818f Delete type=0 #15
+2023/05/03-23:20:11.305 80be Compacting 1@0 + 1@1 files
+2023/05/03-23:20:11.388 80be Generated table #22@0: 39210 keys, 1128897 bytes
+2023/05/03-23:20:11.389 80be Compacted 1@0 + 1@1 files => 1128897 bytes
+2023/05/03-23:20:11.391 80be compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/03-23:20:11.391 80be Delete type=2 #21
+2023/05/03-23:20:11.391 80be Delete type=2 #18
