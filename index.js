@@ -11,7 +11,7 @@ dotenv.config()
 
 
 const app = express();
-const port = 3000;
+
 
 app.use(bodyParser.json());
 
@@ -73,8 +73,10 @@ const getMessageRouter = (client) => {
 app.use("/auth",user)
 app.use('/message', getMessageRouter(client));
 
-app.listen(port, () => {
-  console.log(`App listening at http://localhost:${port}`);
+
+PORT=process.env.PORT||3000
+app.listen(PORT, () => {
+  console.log(`App listening at http://localhost:${PORT}`);
 });
 
 client.initialize();
