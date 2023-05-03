@@ -1,0 +1,23 @@
+{
+  "name": "baber_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22",
+    "qrcode-terminal": "^0.12.0",
+    "twilio": "^4.10.0",
+    "whatsapp-web.js": "^1.19.5"
+  }
+}
