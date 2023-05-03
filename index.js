@@ -16,17 +16,11 @@ const app = express();
 app.use(bodyParser.json());
 
 const client = new Client({
+  authStrategy: new LocalAuth(),
   puppeteer: {
-    executablePath: '/usr/bin/brave-browser-stable',
-  },
-  authStrategy: new LocalAuth({
-    clientId: "client-one"
-  }),
-  puppeteer: {
-    headless: false,
-  }
+  args: ['--no-sandbox'],
+}
 });
-
 client.on('qr', qr => {
   qrcode.generate(qr, {small: true});
 });
