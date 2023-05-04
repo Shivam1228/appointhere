@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const { Client, LocalAuth,se } = require('whatsapp-web.js');
 const dotenv=require('dotenv')
 const qrcode = require('qrcode-terminal');
-const messageRouter = require('./routes/message');
 const user=require('./routes/login')
 
 dotenv.config()
