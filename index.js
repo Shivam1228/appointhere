@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const { Client, LocalAuth,se } = require('whatsapp-web.js');
 const dotenv=require('dotenv')
 const qrcode = require('qrcode-terminal');
+const messageRouter = require('./routes/message');
 const user=require('./routes/login')
 
 dotenv.config()
@@ -17,7 +18,7 @@ app.use(bodyParser.json());
 const client = new Client({
   authStrategy: new LocalAuth(),
   puppeteer: {
-  args: ['--no-sandbox'],
+  args: ['--no-sandbox','--disable-setuid-sandbox'],
 }
 });
 client.on('qr', qr => {

@@ -1,2 +1,3 @@
-2023/05/03-23:19:49.105 80be Creating DB /home/nqu/appointhere/.wwebjs_auth/session/Default/Platform Notifications since it was missing.
-2023/05/03-23:19:49.110 80be Reusing MANIFEST /home/nqu/appointhere/.wwebjs_auth/session/Default/Platform Notifications/MANIFEST-000001
+2023/05/04-10:59:17.046 20de Reusing MANIFEST /home/nqu/appointhere/.wwebjs_auth/session/Default/Platform Notifications/MANIFEST-000001
+2023/05/04-10:59:17.046 20de Recovering log #3
+2023/05/04-10:59:17.046 20de Reusing old log /home/nqu/appointhere/.wwebjs_auth/session/Default/Platform Notifications/000003.log 

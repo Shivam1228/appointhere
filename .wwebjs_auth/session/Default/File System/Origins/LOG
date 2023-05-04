@@ -1,2 +1,3 @@
-2023/05/03-23:19:13.768 80b9 Creating DB /home/nqu/appointhere/.wwebjs_auth/session/Default/File System/Origins since it was missing.
-2023/05/03-23:19:13.773 80b9 Reusing MANIFEST /home/nqu/appointhere/.wwebjs_auth/session/Default/File System/Origins/MANIFEST-000001
+2023/05/04-10:59:18.274 20de Reusing MANIFEST /home/nqu/appointhere/.wwebjs_auth/session/Default/File System/Origins/MANIFEST-000001
+2023/05/04-10:59:18.274 20de Recovering log #3
+2023/05/04-10:59:18.274 20de Reusing old log /home/nqu/appointhere/.wwebjs_auth/session/Default/File System/Origins/000003.log 

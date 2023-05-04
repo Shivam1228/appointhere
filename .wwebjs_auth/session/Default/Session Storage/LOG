@@ -1,2 +1,3 @@
-2023/05/03-23:19:12.139 80b9 Creating DB /home/nqu/appointhere/.wwebjs_auth/session/Default/Session Storage since it was missing.
-2023/05/03-23:19:12.146 80b9 Reusing MANIFEST /home/nqu/appointhere/.wwebjs_auth/session/Default/Session Storage/MANIFEST-000001
+2023/05/04-10:59:18.353 20e1 Reusing MANIFEST /home/nqu/appointhere/.wwebjs_auth/session/Default/Session Storage/MANIFEST-000001
+2023/05/04-10:59:18.353 20e1 Recovering log #3
+2023/05/04-10:59:18.353 20e1 Reusing old log /home/nqu/appointhere/.wwebjs_auth/session/Default/Session Storage/000003.log 
