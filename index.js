@@ -46,11 +46,11 @@ const getMessageRouter = (client) => {
 
     try {
       const response = await client.sendMessage(`${num}@c.us`, message);
-      console.log('Message sent successfully!', response);
+      console.log('Message sent successfully!');
 
-      const newMessage = new Message({ name, email, number, message });
-      const savedMessage = await newMessage.save();
-      console.log('Message saved to database', savedMessage);
+      // const newMessage = new Message({ name, email, number, message });
+      // const savedMessage = await newMessage.save();
+      // console.log('Message saved to database', savedMessage);
 
       res.send('Message sent successfully!');
     } catch (error) {
