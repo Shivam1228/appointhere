@@ -21,14 +21,25 @@ const client = new Client({
   args: ['--no-sandbox','--disable-setuid-sandbox'],
 }
 });
+client.initialize();
+
+client.on('loading_screen', (percent, message) => {
+    console.log('LOADING SCREEN', percent, message);
+});
+
 client.on('qr', qr => {
-  qrcode.generate(qr, {small: true});
+    qrcode.generate(qr, {small: true});
 });
 
-client.on('ready', () => {
-  console.log('Client is ready!');
+
+client.on('authenticated', () => {
+    console.log('AUTHENTICATED');
 });
 
+client.on('auth_failure', msg => {
+    // Fired if session restore was unsuccessful
+    console.error('AUTHENTICATION FAILURE', msg);
+});
 
 
 mongoose.connect(process.env.mongo, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -72,5 +83,3 @@ PORT=process.env.PORT||3000
 app.listen(PORT, () => {
   console.log(`App listening at http://localhost:${PORT}`);
 });
-
-client.initialize();
