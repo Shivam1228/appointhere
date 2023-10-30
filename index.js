@@ -16,10 +16,14 @@ const app = express();
 app.use(bodyParser.json());
 
 const client = new Client({
-  authStrategy: new LocalAuth(),
+  
   puppeteer: {
-  args: ['--no-sandbox','--disable-setuid-sandbox'],
-}
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox'
+    ],
+    authStrategy: new LocalAuth(),
+  }
 });
 client.initialize();
 
