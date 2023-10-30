@@ -140,3 +140,27 @@
 2023/10/30-13:21:52.931 2624 Delete type=2 #922
 2023/10/30-13:21:52.931 2624 Delete type=2 #936
 2023/10/30-13:21:52.931 2624 Delete type=2 #921
+2023/10/30-13:22:08.074 25ef Compacting 1@1 + 10@2 files
+2023/10/30-13:22:08.134 25ef Generated table #939@1: 30595 keys, 2200059 bytes
+2023/10/30-13:22:08.150 25ef Generated table #940@1: 2699 keys, 2165371 bytes
+2023/10/30-13:22:08.165 25ef Generated table #941@1: 3320 keys, 2159341 bytes
+2023/10/30-13:22:08.182 25ef Generated table #942@1: 3170 keys, 2158218 bytes
+2023/10/30-13:22:08.200 25ef Generated table #943@1: 3090 keys, 2161483 bytes
+2023/10/30-13:22:08.216 25ef Generated table #944@1: 3227 keys, 2163528 bytes
+2023/10/30-13:22:08.260 25ef Generated table #945@1: 28894 keys, 2233600 bytes
+2023/10/30-13:22:08.302 25ef Generated table #946@1: 26267 keys, 2266370 bytes
+2023/10/30-13:22:08.346 25ef Generated table #947@1: 47743 keys, 2258008 bytes
+2023/10/30-13:22:08.378 25ef Generated table #948@1: 16717 keys, 2188847 bytes
+2023/10/30-13:22:08.378 25ef Compacted 1@1 + 10@2 files => 21954825 bytes
+2023/10/30-13:22:08.381 25ef compacted to: files[ 0 0 12 0 0 0 0 ]
+2023/10/30-13:22:08.381 25ef Delete type=2 #935
+2023/10/30-13:22:08.381 25ef Delete type=2 #928
+2023/10/30-13:22:08.381 25ef Delete type=2 #927
+2023/10/30-13:22:08.381 25ef Delete type=2 #931
+2023/10/30-13:22:08.381 25ef Delete type=2 #930
+2023/10/30-13:22:08.381 25ef Delete type=2 #932
+2023/10/30-13:22:08.381 25ef Delete type=2 #925
+2023/10/30-13:22:08.381 25ef Delete type=2 #929
+2023/10/30-13:22:08.381 25ef Delete type=2 #924
+2023/10/30-13:22:08.381 25ef Delete type=2 #923
+2023/10/30-13:22:08.381 25ef Delete type=2 #926
