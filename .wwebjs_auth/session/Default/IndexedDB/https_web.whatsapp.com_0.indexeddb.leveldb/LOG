@@ -2,3 +2,44 @@
 2023/10/30-13:19:36.389 25ec Recovering log #869
 2023/10/30-13:19:36.513 25ec Reusing old log /home/nqu/appointhere/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000869.log 
 2023/10/30-13:19:47.782 25ed Manual compaction at level-0 from '\x00$\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00%\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/30-13:20:06.686 25ef Level-0 table #887: started
+2023/10/30-13:20:06.734 25ef Level-0 table #887: 1076437 bytes OK
+2023/10/30-13:20:06.737 25ef Delete type=0 #869
+2023/10/30-13:20:06.760 25ec Compacting 1@0 + 0@1 files
+2023/10/30-13:20:06.796 25ec Generated table #888@0: 23593 keys, 415200 bytes
+2023/10/30-13:20:06.807 25ec Generated table #889@0: 9494 keys, 190705 bytes
+2023/10/30-13:20:06.807 25ec Compacted 1@0 + 0@1 files => 605905 bytes
+2023/10/30-13:20:06.810 25ec compacted to: files[ 0 2 12 0 0 0 0 ]
+2023/10/30-13:20:06.810 25ec Delete type=2 #887
+2023/10/30-13:20:07.815 25ed Compacting 1@1 + 2@2 files
+2023/10/30-13:20:07.899 25ed Generated table #890@1: 69092 keys, 1601035 bytes
+2023/10/30-13:20:07.899 25ed Compacted 1@1 + 2@2 files => 1601035 bytes
+2023/10/30-13:20:07.901 25ed compacted to: files[ 0 1 11 0 0 0 0 ]
+2023/10/30-13:20:07.902 25ed Delete type=2 #884
+2023/10/30-13:20:07.902 25ed Delete type=2 #889
+2023/10/30-13:20:07.902 25ed Delete type=2 #883
+2023/10/30-13:20:08.909 25ed Compacting 1@1 + 10@2 files
+2023/10/30-13:20:08.959 25ed Generated table #891@1: 30467 keys, 2199596 bytes
+2023/10/30-13:20:08.973 25ed Generated table #892@1: 2704 keys, 2167656 bytes
+2023/10/30-13:20:08.988 25ed Generated table #893@1: 3325 keys, 2159886 bytes
+2023/10/30-13:20:09.003 25ed Generated table #894@1: 3167 keys, 2159166 bytes
+2023/10/30-13:20:09.017 25ed Generated table #895@1: 3086 keys, 2159932 bytes
+2023/10/30-13:20:09.032 25ed Generated table #896@1: 3220 keys, 2158453 bytes
+2023/10/30-13:20:09.065 25ed Generated table #897@1: 28926 keys, 2233971 bytes
+2023/10/30-13:20:09.102 25ed Generated table #898@1: 26268 keys, 2267322 bytes
+2023/10/30-13:20:09.148 25ed Generated table #899@1: 51061 keys, 2261432 bytes
+2023/10/30-13:20:09.181 25ed Generated table #900@1: 17608 keys, 2239915 bytes
+2023/10/30-13:20:09.185 25ed Generated table #901@1: 4076 keys, 108952 bytes
+2023/10/30-13:20:09.185 25ed Compacted 1@1 + 10@2 files => 22116281 bytes
+2023/10/30-13:20:09.189 25ed compacted to: files[ 0 0 12 0 0 0 0 ]
+2023/10/30-13:20:09.189 25ed Delete type=2 #881
+2023/10/30-13:20:09.189 25ed Delete type=2 #877
+2023/10/30-13:20:09.189 25ed Delete type=2 #888
+2023/10/30-13:20:09.189 25ed Delete type=2 #879
+2023/10/30-13:20:09.189 25ed Delete type=2 #875
+2023/10/30-13:20:09.189 25ed Delete type=2 #876
+2023/10/30-13:20:09.189 25ed Delete type=2 #880
+2023/10/30-13:20:09.189 25ed Delete type=2 #882
+2023/10/30-13:20:09.189 25ed Delete type=2 #878
+2023/10/30-13:20:09.189 25ed Delete type=2 #874
+2023/10/30-13:20:09.189 25ed Delete type=2 #873
